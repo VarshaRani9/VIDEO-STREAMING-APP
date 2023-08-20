@@ -63,8 +63,8 @@ function Head() {
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setShowSuggestions(true)}
             onBlur={() => setShowSuggestions(false)}
-            onMouseOut={() => setShowSuggestions(false)}
-            onMouseEnter={() => setShowSuggestions(true)}
+            // onMouseOut={() => setShowSuggestions(false)}
+            // onMouseEnter={() => setShowSuggestions(true)}
           />
           <button
             className="border 9b=>{
