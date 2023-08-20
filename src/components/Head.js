@@ -61,8 +61,8 @@ function Head() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            // onFocus={() => setShowSuggestions(true)}
-            // onBlur={() => setShowSuggestions(false)}
+            onFocus={() => setShowSuggestions(true)}
+            onBlur={() => setShowSuggestions(false)}
             onMouseOut={() => setShowSuggestions(false)}
             onMouseEnter={() => setShowSuggestions(true)}
           />
