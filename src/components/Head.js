@@ -15,7 +15,7 @@ function Head() {
     // make api cll after every keypress but if difference bw 2 keypress is< 200ms
     const timer = setTimeout(() => {
       if (searchCache[searchQuery])
-        setShowSuggestions(searchCache[searchQuery]);
+        setSuggestions(searchCache[searchQuery]);
       else getSearchSuggestions();
     }, 200);
 
